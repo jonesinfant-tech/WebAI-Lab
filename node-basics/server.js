@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-    const name = "JONES INFANT"; // put your name here
+    const name = "JONES INFANT"; 
     const currentTime = new Date();
 
     res.writeHead(200, { "Content-Type": "text/html" });
